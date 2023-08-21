@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .text{
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 30px;
+            font-weight: bold;
+            /* font-style: italic; */
+            text-align: left;
+            width: 500px;
+            line-height: 35px;
+            margin-top: 20px;
+        }
+
+        .text2{
+            margin: 0;
+            color: rgb(94, 93, 93);
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 12px;
+            margin-bottom: 12px;
+        }
+        .text3{
+            margin: 0;
+            color: rgb(94, 93, 93);
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 15px;
+        }
+        .text4{
+            margin: 0;
+            color: rgb(94, 93, 93);
+            font-family: Arial, Helvetica, sans-serif;
+            width: 300px;
+            line-height: 20px;
+            margin-bottom: 65px;
+        }
+    </style>
+
+    <style>
+        .apple{
+            background-color: rgb(222, 35, 35);
+            color: white;
+            margin: 0;
+            padding: 0;
+            margin-top: 40px;
+            padding-left: 30px;
+            padding-right: 30px;
+            padding-top: 15px;
+            padding-bottom: 15px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        .shop{
+            margin-left: 4px;
+        }
+        .shop:hover{
+            cursor: pointer;
+            text-decoration: underline rgb(255, 255, 255);
+        }
+    </style>
+
+    <style>
+        .tahoma{
+            font-family: Tahoma;
+            font-size: 40px;
+            font-weight: bold;
+            margin: 0;
+            margin-top: 30px;
+            margin-bottom: 30px;
+        }
+    </style>
+    <style>
+        .deal{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 30px;
+            margin: 0;
+        }
+        .sale{
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            color: red;
+            font-size: 20px;
+            margin: 0;
+            margin-top: 10px;
+            margin-bottom: 40px;
+        }
+    </style>
+
+    <style>
+        .course{
+            font-family: Verdana;
+            font-weight: bold;
+            font-size: 30px;
+            margin: 0;
+        }
+        .pro{
+            color: rgb(134, 134, 134);
+            font-family: Verdana;
+            font-size: 20px;
+            margin: 0;
+            margin-top: 8px;
+        }
+        .dev{
+            width: 300px;
+            font-family: Verdana;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0;
+            margin-top: 20px;
+            line-height: 23px;
+        }
+        .start{
+            margin: 0;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            background-color: rgb(77, 127, 3);
+            color: white;
+            border: none;
+            border-radius: 3px;
+            font-weight: bold;
+            font-size: 20px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+        .start:hover{
+            opacity: 0.7;
+        }
+        .start:active{
+            background-color: rgb(143, 202, 54);
+        }
+    </style>
+
+    <style>
+        .biz{
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 40px;
+            margin: 0;
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+        .see{
+            font-family: Arial;
+            font-size: 20px;
+            text-align: center;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+        .learn{
+            margin: 0;
+            color: blue;
+            cursor: pointer;
+            text-align: center;
+            font-size: 20px;
+            margin-bottom: 30px;
+        }
+        .more:hover{
+            text-decoration: underline;
+        }
+    </style>
+
+    <style>
+        .new{
+            margin: 0;
+            font-family: Arial;
+            font-weight: bold;
+            color: rgb(224, 148, 8);
+            text-align: center;
+            margin-top: 15px;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+        .mac{
+            margin: 0;
+            font-family: Arial;
+            font-weight: bold;
+            font-size: 30px;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .super{
+            margin: 0;
+            font-family: Arial;
+            font-size: 50px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+        .price{
+            margin: 0;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 25px;
+            margin-bottom: 25px;
+        }
+        .buy{
+            margin: 0;
+            margin-left: 905px;
+            background-color: rgb(14, 138, 205);
+            color: white;
+            border: none;
+            border-radius: 22px;
+            font-size: 20px;
+            font-weight: bold;
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            transition: all 0.3s;
+        }
+        .buy:hover{
+            cursor: pointer;
+            opacity: 0.7;
+        }
+        .buy:active{
+            background-color: rgb(6, 95, 143);
+        }
+    </style>
+
+    <style>
+        .stockprice{
+            font-size: 50px;
+            margin: 0;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .currency{
+            font-size: 30px;
+            color: rgb(98, 94, 94);
+        }
+        .today{
+            color: rgb(13, 110, 0);
+            font-size: 30px;
+            margin: 0;
+            margin-bottom: 15px;
+        }
+        .hours{
+            color: rgb(98, 94, 94);
+            font-size: 30px;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+        .price2{
+            color: rgb(193, 4, 4);
+        }
+    </style>
+
+    <style>
+        .codeorg{
+            font-family: Arial;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0;
+            margin-bottom: 10px;
+        }
+        .codeh{
+            font-weight: normal;
+            color: gray;
+            cursor: pointer;
+        }
+        .line1{
+            font-family: Arial;
+            width: 700px;
+            font-size: 20px;
+            margin: 0;
+            line-height: 25px;
+            margin-bottom: 15px;
+        }
+        .line2{
+            font-family: Arial;
+            font-size: 20px;
+            margin: 0;
+            margin-bottom: 15px;
+        }
+        .mention{
+            color: rgb(8, 145, 224);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <p class="text">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+    <p class="text2">3.4M views &#183; 6 months ago</p> 
+    <p class="text3">Marques Brownlee &#10003;</p>
+    <p class="text4">Talking tech and AI on the heels of Google I/O. Also a daily driver phone reveal from Google's CEO. Shoutout to Sundar!</p> <hr>
+
+    <p class="apple">Shop early for the best selection of holiday favourites. <span class="shop">Shop now</span>&#9658;</p> <hr>
+
+    <p class="tahoma">Tahoma font</p>
+    <p class="deal">Biggest deals of the year!</p>
+    <p class="sale">Sales on Tuesday</p> <hr>
+
+    <p class="course">HTML CSS Course</p>
+    <p class="pro">Beginner to pro</p>
+    <p class="dev">In this course we'll learn the skills you'll need to become a developer.</p>
+    <button class="start">Get Started</button> <hr>
+
+    <p class="biz">Shopping for your business?</p>
+    <p class="see">See how Apple at work can help.</p>
+    <p class="learn"><span class="more">Learn more</span>&#9658;</p> <hr>
+
+    <p class="new">New</p>
+    <p class="mac">MacBook Pro</p>
+    <p class="super">Supercharged for pros.</p>
+    <p class="price">From <span>&#36;</span>1999</p>
+    <button class="buy">Buy</button> <hr>
+
+    <p class="stockprice">1&#44;049&#46;61 <span class="currency">USD</span></p>
+    <p class="today">&#43;18&#46;05 (1&#46;75&#37;) today</p>
+    <p class="hours">After hours 1&#44;049&#46;00 <span class="price2">&#8722;1&#46;61(0&#46;15 &#37;)</span> </p> <hr>
+
+    <p class="codeorg">freeCodeCamp&#46;org <span class="codeh">&#64;freeCodeCamp 1h</span></p>
+    <p class="line1">As a web developer, you&#39;ll want to make your projects easy to use and navigate around.</p>
+    <p class="line2">Here <span class="mention">&#64;chp&#95;it</span> outlines the top skills new developers should have.</p>
+</body>
+</html>

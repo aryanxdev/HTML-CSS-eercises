@@ -1,0 +1,346 @@
+button.subscribe {
+  margin-right: 5px;
+  padding: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid rgb(200, 0, 0);
+  border-radius: 4px;
+  background-color: rgb(200, 0, 0);
+  color: white;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
+  transition: opacity 0.4s;
+  vertical-align: top;
+}
+button.subscribe:hover {
+  opacity: 0.7;
+}
+button.subscribe:active {
+  background-color: rgb(202, 194, 194);
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(202, 194, 194);
+}
+
+button.join {
+  margin-right: 5px;
+  padding: 0;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid rgb(54, 155, 223);
+  border-radius: 2px;
+  border-color: rgb(54, 155, 223);
+  /* border-width: 1px; */
+  background-color: white;
+  color: rgb(54, 155, 223);
+  cursor: pointer;
+  font-weight: bold;
+  font-size: large;
+  transition: background-color 0.4s, color 0.4s; /* we could have written the transition property inside the hover but then while hovering on the button transition must apply but when you hover out of the button everuthing happens instantly so ALWAYS MAKE SURE TO WRITE THE TRANSITION PROPERTY INSIDE THE BASE CSS BLOCK */
+  vertical-align: top;
+}
+button.join:hover {
+  background-color: rgb(54, 155, 223);
+  color: white;
+}
+button.join:active {
+  opacity: 0.7;
+  color: rgb(255, 255, 255);
+}
+
+button.tweet {
+  margin: 0;
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 0;
+  border-radius: 20px;
+  /* border: 1px solid rgb(54, 155, 223); */
+  /* border-color: rgb(54, 155, 223); */
+  background-color: rgb(54, 155, 223);
+  color: white;
+  cursor: pointer;
+  font-size: large;
+  font-weight: bold;
+  transition: box-shadow 0.4s;
+  vertical-align: top;
+}
+button.tweet:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.15);
+  /* FOR BOX-SHADOW   horizontal length of shadow       vertical length of the shadow        strength of the blur        color of the shadow */
+
+  /* FOR RGBA(0, 0, 0,0.3), RGB values and the "a" is nothing but the value of opacity of the colour */
+}
+button.tweet:active {
+  opacity: 0.8;
+}
+
+.uber {
+  background-color: black;
+  color: white;
+  border: none;
+  margin-right: 8px;
+  padding: 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: bold;
+  font-size: large;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.uber:hover {
+  opacity: 0.6;
+}
+.uber:active {
+  background-color: rgb(92, 89, 89);
+}
+
+.amazon {
+  background-color: rgb(249, 217, 40);
+  color: black;
+  border: none;
+  border-radius: 25px;
+  margin-right: 8px;
+  padding: 0px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  /* font-weight: bold; */
+  font-size: large;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.amazon:hover {
+  background-color: rgb(245, 171, 52);
+}
+.amazon:active {
+  background-color: rgb(251, 232, 123);
+}
+
+.github {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-right: 8px;
+  padding: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: 600;
+  font-size: large;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.github:hover {
+  box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.15);
+}
+.github:active {
+  background-color: rgb(152, 232, 175);
+  color: rgb(114, 114, 114);
+}
+
+.bootstrap {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  border: 2px solid rgb(121, 82, 179);
+  border-radius: 5px;
+  margin-right: 8px;
+  padding: 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 600;
+  font-size: large;
+  cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+  vertical-align: top;
+}
+.bootstrap:hover {
+  background-color: rgb(75, 37, 132);
+  border-color: rgb(75, 37, 132);
+}
+.bootstrap:active {
+  opacity: 0.8;
+}
+
+.bootstrap1 {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  border-color: rgb(108, 117, 125);
+  border: 2px solid;
+  border-radius: 5px;
+  margin-right: 8px;
+  padding: 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 600;
+  font-size: large;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s, opacity 0.2s;
+  vertical-align: top;
+}
+.bootstrap1:hover {
+  background-color: rgb(108, 117, 125);
+  color: white;
+  opacity: 0.8;
+}
+.bootstrap1:active {
+  background-color: rgb(145, 147, 149);
+}
+
+.linkedin {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border: none;
+  border-color: rgb(10, 102, 194);
+  border-radius: 25px;
+  margin-right: 8px;
+  padding: 0px;
+  padding-left: 35px;
+  padding-right: 35px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 600;
+  font-size: large;
+  cursor: pointer;
+  transition: background-color 0.9s;
+  vertical-align: top;
+}
+.linkedin:hover {
+  background-color: rgb(0, 66, 133);
+}
+.linkedin:active {
+  opacity: 0.6;
+}
+
+.linkedin1 {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border-color: rgb(10, 102, 194);
+  border: 1px solid;
+  border-radius: 25px;
+  margin-right: 8px;
+  padding: 0px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-weight: 600;
+  font-size: large;
+  cursor: pointer;
+  transform: background-color 0.2s, border-width 0.2s;
+  vertical-align: top;
+}
+.linkedin1:hover {
+  background-color: rgb(188, 220, 252);
+  border-width: 2px;
+}
+.linkedin1:hover {
+  opacity: 0.7;
+}
+
+.back {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+}
+
+.page {
+  margin-right: 5px;
+}
+
+.next {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 5px;
+}
+
+.stretch {
+  color: white;
+  background-color: rgb(9, 162, 111);
+  font-size: large;
+  font-weight: bold;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: padding-left 0.3s, padding-right 0.3s, padding-top 0.3s,
+    padding-bottom 0.3s;
+}
+.stretch:hover {
+  margin: 0;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.stretch:active {
+  opacity: 0.7;
+}
+
+.click {
+  color: white;
+  background-color: rgb(9, 162, 111);
+  font-size: large;
+  font-weight: bold;
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+.click:hover {
+  opacity: 0.8;
+}
+.click:active {
+  box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.15);
+}
+
+.one {
+  color: white;
+  background-color: rgb(9, 162, 111);
+  font-size: large;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-right: 8px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: padding 0.3s, margin 0.3s;
+}
+.one:hover {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
